@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f0efeb;
+    font-family: 'Lexend Mega', sans-serif;
+    color: #333434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 30rem;
+}
+
+.form {
+    padding: 3rem 2rem;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+.form-control {
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+    position: relative
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #777;
+}
+
+
+.form-control input {
+    display: block;
+    border-radius: 4px;
+    border: 2px solid #f0efeb;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.form-control input:focus {
+
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.sucess input {
+
+    border: 2px solid #22eecc;
+}
+
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+.form-control small {
+    color: red;
+    display: none;
+}
+
+.form-control.error small {
+    display: block;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #2fcf07;
+    border: 2px solid #2fcf07;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
